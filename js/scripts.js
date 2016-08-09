@@ -3,7 +3,7 @@ $(document).ready(function(){
     var h1 = $(this).find("h1");
     var p = $(this).find('p');
     h1.click(function(){
-      p.toggleClass('show');
+    p.toggleClass('show');
     });
   });
 });

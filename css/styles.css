@@ -1,20 +1,29 @@
 body{
   width: 100%;
+  background-color: #ffcccc;
 }
 
 h1 {
   text-align: center;
+  color: #000066;
+  text-shadow: 10px 5px 10px black;
 }
 
-div {
+div.flashcard {
   width: 10%;
   margin: 35%;
   padding: 5%;
-  border: solid black;
+  border: solid 1px black;
 }
 
 p {
   display: none;
+  text-align: center;
+}
+
+.heart {
+  color: red;
+  text-shadow: 2px 2px black;
 }
 
 .show {
